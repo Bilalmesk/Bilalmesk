@@ -25,8 +25,8 @@ jobs:
         with:
           github_user_name: Bilalmesk
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=%23ff2d2d&color_dots=%23161b22,%233d1414,%236b1a1a,%23a51f1f,%23ff3b3b
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%23ff2d2d&color_dots=%230d0d0d,%233d1414,%236b1a1a,%23a51f1f,%23ff3b3b
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
