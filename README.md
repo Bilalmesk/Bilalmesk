@@ -29,20 +29,20 @@ problem I actually ran into.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg" />
-  <img height="180" alt="GitHub stats: stars earned, commits, pull requests and repositories contributed to" src="./assets/stats-light.svg" />
+  <img width="48%" alt="GitHub stats: stars earned, commits, pull requests and repositories contributed to" src="./assets/stats-light.svg" />
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/streak-dark.svg" />
-  <img height="180" alt="Contribution streak: total, current and longest run of consecutive days" src="./assets/streak-light.svg" />
+  <img width="48%" alt="Contribution streak: total, current and longest run of consecutive days" src="./assets/streak-light.svg" />
 </picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/languages-dark.svg" />
-  <img height="180" alt="Most used languages by bytes" src="./assets/languages-light.svg" />
+  <img width="48%" alt="Most used languages by bytes" src="./assets/languages-light.svg" />
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/pinned-dark.svg" />
-  <img height="180" alt="Featured project: session-recovery — snapshot and restore Windows apps, Explorer folders and browser tabs" src="./assets/pinned-light.svg" />
+  <img width="48%" alt="Featured project: session-recovery — snapshot and restore Windows apps, Explorer folders and browser tabs" src="./assets/pinned-light.svg" />
 </picture>
 
 </div>
