@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495" height="195" role="img" aria-labelledby="repoCardTitle repoCardDesc">
+  <title id="repoCardTitle">session-recovery</title>
+  <desc id="repoCardDesc">Pinned project: snapshot and restore Windows apps, Explorer folders and browser tabs after a crash or unexpected shutdown. PowerShell, 4 stars, 1 fork.</desc>
+
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#110707"/>
+    </linearGradient>
+    <radialGradient id="cardGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff2d2d" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ff2d2d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardEdge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff2d2d"/>
+      <stop offset="1" stop-color="#ff2d2d" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1.5" y="1.5" width="492" height="192" rx="14" fill="url(#cardBg)" stroke="#3a1a1a" stroke-width="1.5"/>
+  <ellipse cx="440" cy="30" rx="150" ry="90" fill="url(#cardGlow)"/>
+  <path d="M 24 1.5 H 190" stroke="url(#cardEdge)" stroke-width="2"/>
+
+  <!-- repository glyph -->
+  <g transform="translate(28,26)" fill="#ff3b3b">
+    <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/>
+  </g>
+
+  <text x="52" y="42" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="700" fill="#ff3b3b">session-recovery</text>
+
+  <g>
+    <rect x="398" y="27" width="68" height="18" rx="9" fill="none" stroke="#3a1a1a" stroke-width="1"/>
+    <text x="432" y="40" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.2" fill="#9a6a6a">PUBLIC</text>
+  </g>
+
+  <text x="28" y="80" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#b8b8b8">Snapshot and restore Windows apps, Explorer folders</text>
+  <text x="28" y="102" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#b8b8b8">and browser tabs after a crash or unexpected shutdown.</text>
+
+  <line x1="28" y1="126" x2="467" y2="126" stroke="#241010" stroke-width="1"/>
+
+  <circle cx="33" cy="152" r="4.5" fill="#ff2d2d"/>
+  <text x="45" y="156" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#d6d6d6">PowerShell</text>
+
+  <text x="467" y="156" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#ff6b6b">★ 4</text>
+  <text x="430" y="156" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#9a9a9a">1 fork</text>
+</svg>

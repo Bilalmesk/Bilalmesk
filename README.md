@@ -23,12 +23,16 @@ problem I actually ran into.
 
 <div align="center">
 
-<img width="48%" alt="GitHub stats: commits, pull requests, stars and repositories" src="https://github-readme-stats.vercel.app/api?username=Bilalmesk&amp;show_icons=true&amp;include_all_commits=true&amp;count_private=true&amp;hide=issues&amp;hide_rank=true&amp;bg_color=0a0a0a&amp;title_color=ff3b3b&amp;icon_color=ff3b3b&amp;text_color=e8e8e8&amp;border_color=3a1a1a&amp;border_radius=12" />
-<img width="48%" alt="Current and longest contribution streak" src="https://streak-stats.demolab.com?user=Bilalmesk&amp;background=0a0a0a&amp;border=3a1a1a&amp;stroke=3a1a1a&amp;ring=ff2d2d&amp;fire=ff5252&amp;currStreakNum=f5f5f5&amp;sideNums=e8e8e8&amp;currStreakLabel=ff3b3b&amp;sideLabels=9a9a9a&amp;dates=6b6b6b&amp;border_radius=12" />
+<img height="180" alt="GitHub stats: commits, pull requests, stars and repositories" src="https://github-readme-stats.vercel.app/api?username=Bilalmesk&amp;show_icons=true&amp;include_all_commits=true&amp;count_private=true&amp;hide=issues&amp;hide_rank=true&amp;bg_color=0a0a0a&amp;title_color=ff3b3b&amp;icon_color=ff3b3b&amp;text_color=e8e8e8&amp;border_color=3a1a1a&amp;border_radius=12" />
+<img height="180" alt="Current and longest contribution streak" src="https://streak-stats.demolab.com?user=Bilalmesk&amp;background=0a0a0a&amp;border=3a1a1a&amp;stroke=3a1a1a&amp;ring=ff2d2d&amp;fire=ff5252&amp;currStreakNum=f5f5f5&amp;sideNums=e8e8e8&amp;currStreakLabel=ff3b3b&amp;sideLabels=9a9a9a&amp;dates=6b6b6b&amp;border_radius=12" />
 
-<img width="48%" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bilalmesk&amp;layout=compact&amp;langs_count=8&amp;hide=html,css,VBScript,Batchfile&amp;bg_color=0a0a0a&amp;title_color=ff3b3b&amp;text_color=e8e8e8&amp;border_color=3a1a1a&amp;border_radius=12" />
-<img width="48%" alt="Contribution activity over the last year" src="https://github-readme-activity-graph.vercel.app/graph?username=Bilalmesk&amp;bg_color=0a0a0a&amp;color=b8b8b8&amp;line=ff2d2d&amp;point=ff6b6b&amp;area_color=ff2d2d&amp;area=true&amp;hide_border=true&amp;radius=12&amp;custom_title=Contribution%20Activity" />
+<img height="180" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bilalmesk&amp;layout=compact&amp;langs_count=8&amp;hide=html,css,VBScript,Batchfile&amp;bg_color=0a0a0a&amp;title_color=ff3b3b&amp;text_color=e8e8e8&amp;border_color=3a1a1a&amp;border_radius=12" />
+<img height="180" alt="Featured project: session-recovery — snapshot and restore Windows apps, Explorer folders and browser tabs" src="./assets/pinned-session-recovery.svg" />
 
+</div>
+
+<div align="center">
+  <img width="100%" alt="Contribution activity over the last year" src="https://github-readme-activity-graph.vercel.app/graph?username=Bilalmesk&amp;bg_color=0a0a0a&amp;color=b8b8b8&amp;line=ff2d2d&amp;point=ff6b6b&amp;area_color=ff2d2d&amp;area=true&amp;hide_border=true&amp;radius=12&amp;custom_title=Contribution%20Activity" />
 </div>
 
 <div align="center">
