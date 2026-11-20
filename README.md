@@ -15,7 +15,7 @@ problem I actually ran into.
 </div>
 
 <div align="center">
-  <img width="100%" alt="Contribution activity over the last year" src="https://github-readme-activity-graph.vercel.app/graph?username=Bilalmesk&amp;bg_color=0a0a0c&amp;color=8b8b93&amp;line=e11d48&amp;point=fb7185&amp;area_color=e11d48&amp;area=true&amp;hide_border=true&amp;radius=14&amp;custom_title=Contribution%20activity" />
+  <img width="100%" alt="Contribution activity over the last year" src="https://github-readme-activity-graph.vercel.app/graph?username=Bilalmesk&amp;bg_color=0a0a0c&amp;color=8b8b93&amp;line=e11d48&amp;point=fb7185&amp;area_color=e11d48&amp;area=true&amp;hide_border=true&amp;radius=18&amp;custom_title=Contribution%20activity" />
 </div>
 
 ---

@@ -120,6 +120,8 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 196" widt
 
 ${separators}
 
+  <text x="960" y="182" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.6" fill="#4a4a52">UPDATED DAILY</text>
+
 ${columns}
 </svg>
 `;
