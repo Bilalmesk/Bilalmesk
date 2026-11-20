@@ -20,15 +20,15 @@
   <text x="28" y="40" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="600" fill="#111114">GitHub stats</text>
   <text x="467" y="40" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.8" fill="#6e6e78">LAST 12 MONTHS</text>
   <line x1="28" y1="56" x2="467" y2="56" stroke="#efe8e9" stroke-width="1"/>
-  <line x1="243" y1="76" x2="243" y2="184" stroke="#efe8e9" stroke-width="1"/>
-  <line x1="28" y1="136" x2="467" y2="136" stroke="#efe8e9" stroke-width="1"/>
-  <text x="28" y="100" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="600" letter-spacing="-0.8" fill="#111114">4</text>
-  <text x="28" y="119" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.5" fill="#6e6e78">STARS EARNED</text>
-  <text x="258" y="100" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="600" letter-spacing="-0.8" fill="#111114">110</text>
-  <text x="258" y="119" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.5" fill="#6e6e78">COMMITS · 12 MO</text>
-  <text x="28" y="160" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="600" letter-spacing="-0.8" fill="#111114">22</text>
-  <text x="28" y="179" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.5" fill="#6e6e78">PULL REQUESTS · 12 MO</text>
-  <text x="258" y="160" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="600" letter-spacing="-0.8" fill="#111114">6</text>
-  <text x="258" y="179" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.5" fill="#6e6e78">REPOS CONTRIBUTED</text>
+  <line x1="243" y1="74" x2="243" y2="178" stroke="#efe8e9" stroke-width="1"/>
+  <line x1="28" y1="128" x2="467" y2="128" stroke="#efe8e9" stroke-width="1"/>
+  <text x="28" y="98" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="29" font-weight="600" letter-spacing="-0.8" fill="#111114">4</text>
+  <text x="28" y="116" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.5" fill="#6e6e78">STARS EARNED</text>
+  <text x="258" y="98" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="29" font-weight="600" letter-spacing="-0.8" fill="#111114">110</text>
+  <text x="258" y="116" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.5" fill="#6e6e78">COMMITS · 12 MO</text>
+  <text x="28" y="162" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="29" font-weight="600" letter-spacing="-0.8" fill="#111114">22</text>
+  <text x="28" y="180" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.5" fill="#6e6e78">PULL REQUESTS · 12 MO</text>
+  <text x="258" y="162" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="29" font-weight="600" letter-spacing="-0.8" fill="#111114">6</text>
+  <text x="258" y="180" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.5" fill="#6e6e78">REPOS CONTRIBUTED</text>
   <rect x="0.5" y="0.5" width="494" height="194" rx="16" filter="url(#grain)" opacity="0.2"/>
 </svg>

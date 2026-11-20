@@ -20,13 +20,13 @@
   <text x="28" y="40" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="600" fill="#111114">Contribution streak</text>
   <text x="467" y="40" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.8" fill="#6e6e78">CONSECUTIVE DAYS</text>
   <line x1="28" y1="56" x2="467" y2="56" stroke="#efe8e9" stroke-width="1"/>
-  <line x1="163" y1="76" x2="163" y2="150" stroke="#efe8e9" stroke-width="1"/>
-  <line x1="313" y1="76" x2="313" y2="150" stroke="#efe8e9" stroke-width="1"/>
-  <text x="28" y="116" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="600" letter-spacing="-1" fill="#111114">159</text>
-  <text x="28" y="138" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.6" fill="#6e6e78">TOTAL · 12 MO</text>
-  <text x="178" y="116" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="600" letter-spacing="-1" fill="#e5484d">3</text>
-  <text x="178" y="138" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.6" fill="#6e6e78">CURRENT</text>
-  <text x="328" y="116" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="600" letter-spacing="-1" fill="#111114">10</text>
-  <text x="328" y="138" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.6" fill="#6e6e78">LONGEST</text>
+  <line x1="163" y1="82" x2="163" y2="172" stroke="#efe8e9" stroke-width="1"/>
+  <line x1="313" y1="82" x2="313" y2="172" stroke="#efe8e9" stroke-width="1"/>
+  <text x="28" y="128" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="600" letter-spacing="-1" fill="#111114">159</text>
+  <text x="28" y="150" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.6" fill="#6e6e78">TOTAL · 12 MO</text>
+  <text x="178" y="128" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="600" letter-spacing="-1" fill="#e5484d">3</text>
+  <text x="178" y="150" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.6" fill="#6e6e78">CURRENT</text>
+  <text x="328" y="128" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="600" letter-spacing="-1" fill="#111114">10</text>
+  <text x="328" y="150" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.6" fill="#6e6e78">LONGEST</text>
   <rect x="0.5" y="0.5" width="494" height="194" rx="16" filter="url(#grain)" opacity="0.2"/>
 </svg>

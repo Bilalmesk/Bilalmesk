@@ -166,7 +166,7 @@ function build(t) {
     </filter>
 
     <clipPath id="avatarClip">
-      <circle cx="1070" cy="162" r="78"/>
+      <circle cx="1070" cy="204" r="78"/>
     </clipPath>
 
     <style>
@@ -231,14 +231,14 @@ function build(t) {
   <text x="112" y="343" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15" fill="${t.faint}">Building <tspan fill="${t.text}">opencode-usage-tracker</tspan> — local-first, read-only</text>
 
   <!-- portrait -->
-  <ellipse cx="1070" cy="162" rx="118" ry="118" fill="url(#faceGlow)" opacity="0.55"/>
-  <image href="data:${avatarType};base64,${avatarB64}" x="992" y="84" width="156" height="156" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)"/>
-  <circle cx="1070" cy="162" r="78" fill="none" stroke="url(#ring)" stroke-width="2"/>
-  <circle cx="1070" cy="162" r="86" fill="none" stroke="${t.accent}" stroke-opacity="0.12" stroke-width="5"/>
+  <ellipse cx="1070" cy="204" rx="118" ry="118" fill="url(#faceGlow)" opacity="0.55"/>
+  <image href="data:${avatarType};base64,${avatarB64}" x="992" y="126" width="156" height="156" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)"/>
+  <circle cx="1070" cy="204" r="78" fill="none" stroke="url(#ring)" stroke-width="2"/>
+  <circle cx="1070" cy="204" r="86" fill="none" stroke="${t.accent}" stroke-opacity="0.12" stroke-width="5"/>
 
   <!-- headline stat -->
-  <text x="1070" y="308" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="54" font-weight="600" letter-spacing="-1.2" fill="${t.text}">${contributions}</text>
-  <text x="1070" y="334" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" letter-spacing="2.4" fill="${t.faint}">CONTRIBUTIONS · 12 MO</text>
+  <text x="1070" y="348" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="54" font-weight="600" letter-spacing="-1.2" fill="${t.text}">${contributions}</text>
+  <text x="1070" y="374" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" letter-spacing="2.4" fill="${t.faint}">CONTRIBUTIONS · 12 MO</text>
 
   <rect width="1280" height="420" rx="26" filter="url(#grain)" opacity="${t.grain}" style="mix-blend-mode:overlay"/>
 </svg>

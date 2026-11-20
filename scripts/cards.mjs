@@ -215,9 +215,9 @@ function statsCard(t) {
   const cells = metrics
     .map(([value, label], i) => {
       const x = i % 2 === 0 ? 28 : 258;
-      const y = i < 2 ? 100 : 160;
-      return `  <text x="${x}" y="${y}" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="600" letter-spacing="-0.8" fill="${t.text}">${value}</text>
-  <text x="${x}" y="${y + 19}" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.5" fill="${t.faint}">${label}</text>`;
+      const y = i < 2 ? 98 : 162;
+      return `  <text x="${x}" y="${y}" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="29" font-weight="600" letter-spacing="-0.8" fill="${t.text}">${value}</text>
+  <text x="${x}" y="${y + 18}" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.5" fill="${t.faint}">${label}</text>`;
     })
     .join("\n");
 
@@ -227,8 +227,8 @@ function statsCard(t) {
     195,
     `GitHub stats: ${stars} stars, ${cc.totalCommitContributions} commits, ${cc.totalPullRequestContributions} pull requests`,
     `${header(t, "GitHub stats", "LAST 12 MONTHS", 495)}
-  <line x1="243" y1="76" x2="243" y2="184" stroke="${t.divider}" stroke-width="1"/>
-  <line x1="28" y1="136" x2="467" y2="136" stroke="${t.divider}" stroke-width="1"/>
+  <line x1="243" y1="74" x2="243" y2="178" stroke="${t.divider}" stroke-width="1"/>
+  <line x1="28" y1="128" x2="467" y2="128" stroke="${t.divider}" stroke-width="1"/>
 ${cells}`
   );
 }
@@ -242,8 +242,8 @@ function streakCard(t) {
   const body = cells
     .map(([label, value, color], i) => {
       const x = [28, 178, 328][i];
-      return `  <text x="${x}" y="116" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="600" letter-spacing="-1" fill="${color}">${value}</text>
-  <text x="${x}" y="138" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.6" fill="${t.faint}">${label}</text>`;
+      return `  <text x="${x}" y="128" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="600" letter-spacing="-1" fill="${color}">${value}</text>
+  <text x="${x}" y="150" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.6" fill="${t.faint}">${label}</text>`;
     })
     .join("\n");
 
@@ -253,8 +253,8 @@ function streakCard(t) {
     195,
     `Contribution streak: ${current} days current, ${longest} days longest`,
     `${header(t, "Contribution streak", "CONSECUTIVE DAYS", 495)}
-  <line x1="163" y1="76" x2="163" y2="150" stroke="${t.divider}" stroke-width="1"/>
-  <line x1="313" y1="76" x2="313" y2="150" stroke="${t.divider}" stroke-width="1"/>
+  <line x1="163" y1="82" x2="163" y2="172" stroke="${t.divider}" stroke-width="1"/>
+  <line x1="313" y1="82" x2="313" y2="172" stroke="${t.divider}" stroke-width="1"/>
 ${body}`
   );
 }
