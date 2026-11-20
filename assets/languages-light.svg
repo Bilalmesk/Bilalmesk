@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495" height="195" role="img" aria-label="Most used languages: PowerShell, HTML, JavaScript, C#, Kotlin">
+  <title>Most used languages: PowerShell, HTML, JavaScript, C#, Kotlin</title>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#cf222e" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#cf222e" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#cf222e" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#e5484d"/>
+    </linearGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.04"/></feComponentTransfer>
+    </filter>
+  </defs>
+  <rect x="0.5" y="0.5" width="494" height="194" rx="16" fill="#ffffff" stroke="#e6dcdd" stroke-width="1"/>
+  <path d="M 28 0.75 H 124" stroke="url(#edge)" stroke-width="1.5"/>
+  <text x="28" y="40" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="600" fill="#111114">Most used languages</text>
+  <text x="467" y="40" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.8" fill="#6e6e78">BY BYTES</text>
+  <line x1="28" y1="56" x2="467" y2="56" stroke="#efe8e9" stroke-width="1"/>
+  <circle cx="34" cy="80" r="3.5" fill="#cf222e"/>
+  <text x="46" y="84" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#111114">PowerShell</text>
+  <text x="467" y="84" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#5b5b66">79.02%</text>
+  <rect x="46" y="87" width="421" height="4" rx="2" fill="#f2edee"/>
+  <rect x="46" y="87" width="328" height="4" rx="2" fill="#e5484d" opacity="1"/>
+  <circle cx="34" cy="102" r="3.5" fill="#cf222e"/>
+  <text x="46" y="106" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#111114">HTML</text>
+  <text x="467" y="106" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#5b5b66">8.83%</text>
+  <rect x="46" y="109" width="421" height="4" rx="2" fill="#f2edee"/>
+  <rect x="46" y="109" width="37" height="4" rx="2" fill="#e5484d" opacity="0.86"/>
+  <circle cx="34" cy="124" r="3.5" fill="#cf222e"/>
+  <text x="46" y="128" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#111114">JavaScript</text>
+  <text x="467" y="128" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#5b5b66">7.94%</text>
+  <rect x="46" y="131" width="421" height="4" rx="2" fill="#f2edee"/>
+  <rect x="46" y="131" width="33" height="4" rx="2" fill="#e5484d" opacity="0.72"/>
+  <circle cx="34" cy="146" r="3.5" fill="#cf222e"/>
+  <text x="46" y="150" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#111114">C#</text>
+  <text x="467" y="150" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#5b5b66">2.67%</text>
+  <rect x="46" y="153" width="421" height="4" rx="2" fill="#f2edee"/>
+  <rect x="46" y="153" width="11" height="4" rx="2" fill="#e5484d" opacity="0.58"/>
+  <circle cx="34" cy="168" r="3.5" fill="#cf222e"/>
+  <text x="46" y="172" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#111114">Kotlin</text>
+  <text x="467" y="172" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#5b5b66">1.13%</text>
+  <rect x="46" y="175" width="421" height="4" rx="2" fill="#f2edee"/>
+  <rect x="46" y="175" width="5" height="4" rx="2" fill="#e5484d" opacity="0.43999999999999995"/>
+  <rect x="0.5" y="0.5" width="494" height="194" rx="16" filter="url(#grain)" opacity="0.2"/>
+</svg>

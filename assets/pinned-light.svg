@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495" height="195" role="img" aria-label="session-recovery: Snapshot and restore Windows apps, Explorer folders and browser tabs after a crash or unexpected shutdown.">
+  <title>session-recovery: Snapshot and restore Windows apps, Explorer folders and browser tabs after a crash or unexpected shutdown.</title>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#cf222e" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#cf222e" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#cf222e" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#e5484d"/>
+    </linearGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.04"/></feComponentTransfer>
+    </filter>
+  </defs>
+  <rect x="0.5" y="0.5" width="494" height="194" rx="16" fill="#ffffff" stroke="#e6dcdd" stroke-width="1"/>
+  <path d="M 28 0.75 H 124" stroke="url(#edge)" stroke-width="1.5"/>
+  <g transform="translate(28,26)" fill="#e5484d">
+    <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/>
+  </g>
+  <text x="52" y="42" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="700" fill="#cf222e">session-recovery</text>
+  <rect x="398" y="27" width="68" height="18" rx="9" fill="none" stroke="#e6dcdd" stroke-width="1"/>
+  <text x="432" y="40" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.2" fill="#6e6e78">PUBLIC</text>
+  <text x="28" y="80" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#5b5b66">Snapshot and restore Windows apps, Explorer folders and</text>
+  <text x="28" y="102" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#5b5b66">browser tabs after a crash or unexpected shutdown.</text>
+  <line x1="28" y1="126" x2="467" y2="126" stroke="#efe8e9" stroke-width="1"/>
+  <circle cx="33" cy="152" r="4.5" fill="#cf222e"/>
+  <text x="45" y="156" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#111114">PowerShell</text>
+  <text x="467" y="156" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#e5484d">★ 4</text>
+  <text x="412" y="156" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#5b5b66">1 fork</text>
+  <rect x="0.5" y="0.5" width="494" height="194" rx="16" filter="url(#grain)" opacity="0.2"/>
+</svg>
