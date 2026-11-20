@@ -19,6 +19,8 @@ problem I actually ran into.
 
 ---
 
+<sub>01 — ACTIVITY</sub>
+
 ## 📈 Contributions &amp; Activity
 
 <div align="center">
@@ -45,6 +47,8 @@ problem I actually ran into.
 
 ---
 
+<sub>02 — WORK</sub>
+
 ## 🚀 Featured Projects
 
 | Project | What it does | Stack |
@@ -57,6 +61,8 @@ problem I actually ran into.
 
 ---
 
+<sub>03 — STACK</sub>
+
 ## 🧰 Toolbox
 
 <div align="center">
@@ -64,6 +70,8 @@ problem I actually ran into.
 </div>
 
 ---
+
+<sub>04 — NOW</sub>
 
 ## 🌱 Currently
 
