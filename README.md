@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/banner.svg?v=6" alt="Meskine Morty — automation, reverse engineering and streaming tooling" width="100%" />
+  <img src="./assets/banner.svg?v=8" alt="Meskine Morty — automation, reverse engineering and streaming tooling" width="100%" />
 </div>
 
 <div align="center">

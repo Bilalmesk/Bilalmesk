@@ -141,38 +141,38 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" widt
   <path d="M 68 28 H 330" stroke="url(#rule)" stroke-width="2"/>
 
   <!-- masthead -->
-  <text x="88" y="80" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="3.4" fill="#7a7a84">PROFILE · ISSUE 2026</text>
-  <text x="1152" y="80" text-anchor="end" font-family="'JetBrains Mono','Cascadia Code',Consolas,monospace" font-size="12" fill="#7a7a84">github.com/Bilalmesk</text>
+  <text x="88" y="80" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="600" letter-spacing="3.2" fill="#7a7a84">PROFILE · ISSUE 2026</text>
+  <text x="1152" y="80" text-anchor="end" font-family="'JetBrains Mono','Cascadia Code',Consolas,monospace" font-size="13.5" fill="#7a7a84">github.com/Bilalmesk</text>
   <line x1="88" y1="98" x2="1152" y2="98" stroke="#241318" stroke-width="1"/>
 
   <!-- name -->
-  <text x="84" y="190" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="78" font-weight="600" letter-spacing="-2.6" fill="#f7f7f9">Meskine Morty<tspan fill="#ff2d2d">.</tspan></text>
-  <text x="88" y="230" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" fill="#9c9ca6">Automation, reverse engineering and streaming tooling</text>
+  <text x="84" y="190" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="82" font-weight="600" letter-spacing="-2.8" fill="#f7f7f9">Meskine Morty<tspan fill="#ff2d2d">.</tspan></text>
+  <text x="88" y="232" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="21" fill="#9c9ca6">Automation, reverse engineering and streaming tooling</text>
 
   <!-- chips -->
   <g>
-    <rect x="88" y="256" width="122" height="32" rx="16" fill="#ffffff" fill-opacity="0.03" stroke="#2a1519" stroke-width="1"/>
+    <rect x="88" y="258" width="132" height="34" rx="17" fill="#ffffff" fill-opacity="0.03" stroke="#2a1519" stroke-width="1"/>
     <g fill="#ff4d6d">
-      <rect x="104" y="265" width="5" height="5" rx="1"/>
-      <rect x="111" y="265" width="5" height="5" rx="1"/>
-      <rect x="104" y="272" width="5" height="5" rx="1"/>
-      <rect x="111" y="272" width="5" height="5" rx="1"/>
+      <rect x="105" y="268" width="5.5" height="5.5" rx="1"/>
+      <rect x="112.5" y="268" width="5.5" height="5.5" rx="1"/>
+      <rect x="105" y="275.5" width="5.5" height="5.5" rx="1"/>
+      <rect x="112.5" y="275.5" width="5.5" height="5.5" rx="1"/>
     </g>
-    <text x="128" y="277" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#b8b8be">Windows</text>
+    <text x="129" y="280" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#c4c4ca">Windows</text>
 
-    <rect x="220" y="256" width="118" height="32" rx="16" fill="#ffffff" fill-opacity="0.03" stroke="#2a1519" stroke-width="1"/>
-    <rect x="236" y="264" width="9" height="16" rx="2" fill="none" stroke="#ff4d6d" stroke-width="1.4"/>
-    <circle cx="240.5" cy="276.5" r="1" fill="#ff4d6d"/>
-    <text x="256" y="277" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#b8b8be">Android</text>
+    <rect x="230" y="258" width="128" height="34" rx="17" fill="#ffffff" fill-opacity="0.03" stroke="#2a1519" stroke-width="1"/>
+    <rect x="247" y="267" width="9.5" height="17" rx="2" fill="none" stroke="#ff4d6d" stroke-width="1.5"/>
+    <circle cx="251.75" cy="280" r="1" fill="#ff4d6d"/>
+    <text x="268" y="280" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#c4c4ca">Android</text>
 
-    <rect x="348" y="256" width="88" height="32" rx="16" fill="#ffffff" fill-opacity="0.03" stroke="#2a1519" stroke-width="1"/>
-    <text x="364" y="277" font-family="'JetBrains Mono','Cascadia Code',Consolas,monospace" font-size="12" fill="#ff4d6d">&gt;_</text>
-    <text x="384" y="277" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#b8b8be">CLI</text>
+    <rect x="368" y="258" width="100" height="34" rx="17" fill="#ffffff" fill-opacity="0.03" stroke="#2a1519" stroke-width="1"/>
+    <text x="385" y="280" font-family="'JetBrains Mono','Cascadia Code',Consolas,monospace" font-size="13.5" fill="#ff4d6d">&gt;_</text>
+    <text x="406" y="280" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#c4c4ca">CLI</text>
   </g>
 
   <!-- status -->
-  <circle class="pulse" cx="94" cy="336" r="4" fill="#ff2d2d"/>
-  <text x="110" y="341" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#8a8a94">Building <tspan fill="#e8e8ec">opencode-usage-tracker</tspan> — local-first, read-only</text>
+  <circle class="pulse" cx="94" cy="338" r="4.5" fill="#ff2d2d"/>
+  <text x="112" y="343" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15" fill="#8a8a94">Building <tspan fill="#e8e8ec">opencode-usage-tracker</tspan> — local-first, read-only</text>
 
   <!-- portrait -->
   <ellipse cx="1070" cy="162" rx="118" ry="118" fill="url(#faceGlow)" opacity="0.55"/>
@@ -181,8 +181,8 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" widt
   <circle cx="1070" cy="162" r="86" fill="none" stroke="#ff2d2d" stroke-opacity="0.12" stroke-width="5"/>
 
   <!-- headline stat -->
-  <text x="1070" y="306" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="46" font-weight="600" letter-spacing="-1" fill="#f7f7f9">${contributions}</text>
-  <text x="1070" y="330" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="9.5" font-weight="600" letter-spacing="2.2" fill="#7a7a84">CONTRIBUTIONS · 12 MO</text>
+  <text x="1070" y="308" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="54" font-weight="600" letter-spacing="-1.2" fill="#f7f7f9">${contributions}</text>
+  <text x="1070" y="334" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" letter-spacing="2.4" fill="#7a7a84">CONTRIBUTIONS · 12 MO</text>
 
   <rect width="1280" height="420" rx="26" filter="url(#grain)" opacity="0.5" style="mix-blend-mode:overlay"/>
 </svg>
