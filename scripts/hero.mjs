@@ -54,191 +54,161 @@ if (!avatarRes.ok) {
 const avatarB64 = Buffer.from(await avatarRes.arrayBuffer()).toString("base64");
 const avatarType = avatarRes.headers.get("content-type") || "image/png";
 
+
 const themes = {
   dark: {
-    bg1: "#050506",
-    bg2: "#090609",
-    bg3: "#0e0508",
-    card: "#0d090b",
-    cardOpacity: "0.94",
-    border: "#2a1519",
-    inner: "#ffffff",
-    innerOpacity: "0.04",
+    bg1: "#060607",
+    bg2: "#0a0709",
+    bg3: "#12060a",
+    win: "#0c0a0c",
+    winBar: "#120d10",
+    border: "#2c161b",
     text: "#f7f7f9",
-    muted: "#9c9ca6",
-    faint: "#7a7a84",
-    chipText: "#c4c4ca",
+    muted: "#a3a3ad",
+    faint: "#767680",
     chipFill: "#ffffff",
-    chipFillOpacity: "0.03",
-    rule: "#ff2d2d",
+    chipOp: "0.035",
     accent: "#ff2d2d",
     accentSoft: "#ff4d6d",
-    aurora: "#e11d48",
-    ember: "#7f1d1d",
-    ring1: "#ff6b6b",
-    ring2: "#e11d48",
-    ring3: "#7f1d1d",
-    grain: "0.5",
-    faceGlow: "#ff2d2d",
+    glow: "#e11d48",
+    grid: "#ffffff",
+    gridOp: "0.04",
+    dotA: "#ff5f57",
+    dotB: "#febc2e",
+    dotC: "#28c840",
+    grain: "0.45",
   },
   light: {
     bg1: "#ffffff",
-    bg2: "#fbf7f8",
-    bg3: "#fff1f3",
-    card: "#ffffff",
-    cardOpacity: "0.97",
+    bg2: "#fcf7f8",
+    bg3: "#fff0f2",
+    win: "#ffffff",
+    winBar: "#f7f1f2",
     border: "#e6dcdd",
-    inner: "#000000",
-    innerOpacity: "0.03",
     text: "#111114",
-    muted: "#5b5b66",
+    muted: "#55555f",
     faint: "#6e6e78",
-    chipText: "#3d3d46",
     chipFill: "#000000",
-    chipFillOpacity: "0.02",
-    rule: "#cf222e",
+    chipOp: "0.025",
     accent: "#cf222e",
     accentSoft: "#e5484d",
-    aurora: "#ffb3bf",
-    ember: "#ffe3e7",
-    ring1: "#e5484d",
-    ring2: "#cf222e",
-    ring3: "#ffb3bf",
-    grain: "0.22",
-    faceGlow: "#ff8fa3",
+    glow: "#ffb3bf",
+    grid: "#000000",
+    gridOp: "0.04",
+    dotA: "#ff5f57",
+    dotB: "#febc2e",
+    dotC: "#28c840",
+    grain: "0.2",
   },
 };
 
+const SANS = "'Segoe UI','Helvetica Neue',Arial,sans-serif";
+const MONO = "'JetBrains Mono','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace";
+const projects = ["session-recovery", "opencode-usage-tracker", "mihon-extensions", "netflix-speed-keys"];
+
 function build(t) {
+  let cx = 88;
+  const chips = projects
+    .map((name) => {
+      const w = Math.round(name.length * 7.9 + 36);
+      const out = `    <rect x="${cx}" y="300" width="${w}" height="32" rx="16" fill="${t.chipFill}" fill-opacity="${t.chipOp}" stroke="${t.border}"/>
+    <circle cx="${cx + 16}" cy="316" r="3" fill="${t.accentSoft}"/>
+    <text x="${cx + 28}" y="320.5" font-family="${MONO}" font-size="13" fill="${t.muted}">${name}</text>`;
+      cx += w + 10;
+      return out;
+    })
+    .join("\n");
+
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" width="1280" height="420" role="img" aria-labelledby="heroTitle heroDesc">
   <title id="heroTitle">Meskine Morty — Bilalmesk</title>
-  <desc id="heroDesc">Profile cover: Meskine Morty, automation, reverse engineering and streaming tooling, ${contributions} contributions in the last twelve months.</desc>
+  <desc id="heroDesc">Profile cover styled as a terminal: Meskine Morty, automation, reverse engineering and streaming tooling, ${contributions} contributions in the last twelve months.</desc>
 
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="${t.bg1}"/>
-      <stop offset="0.55" stop-color="${t.bg2}"/>
+      <stop offset="0.6" stop-color="${t.bg2}"/>
       <stop offset="1" stop-color="${t.bg3}"/>
     </linearGradient>
-
-    <radialGradient id="aurora" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="${t.aurora}" stop-opacity="0.34"/>
-      <stop offset="0.45" stop-color="${t.aurora}" stop-opacity="0.12"/>
-      <stop offset="1" stop-color="${t.aurora}" stop-opacity="0"/>
+    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="${t.glow}" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="${t.glow}" stop-opacity="0"/>
     </radialGradient>
-
-    <radialGradient id="ember" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="${t.ember}" stop-opacity="0.6"/>
-      <stop offset="0.55" stop-color="${t.ember}" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="${t.ember}" stop-opacity="0"/>
-    </radialGradient>
-
-    <radialGradient id="faceGlow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="${t.faceGlow}" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="${t.faceGlow}" stop-opacity="0"/>
-    </radialGradient>
-
-    <linearGradient id="cardFill" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="${t.card}" stop-opacity="${t.cardOpacity}"/>
-      <stop offset="1" stop-color="${t.card}" stop-opacity="${t.cardOpacity}"/>
+    <linearGradient id="winEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="${t.accent}" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="${t.border}" stop-opacity="1"/>
+      <stop offset="1" stop-color="${t.accent}" stop-opacity="0.25"/>
     </linearGradient>
-
-    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="${t.rule}" stop-opacity="0.9"/>
-      <stop offset="0.55" stop-color="${t.rule}" stop-opacity="0.15"/>
-      <stop offset="1" stop-color="${t.rule}" stop-opacity="0"/>
+    <linearGradient id="nameFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="${t.text}"/>
+      <stop offset="1" stop-color="${t.text}"/>
     </linearGradient>
-
-    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="${t.ring1}"/>
-      <stop offset="0.55" stop-color="${t.ring2}" stop-opacity="0.65"/>
-      <stop offset="1" stop-color="${t.ring3}" stop-opacity="0.2"/>
-    </linearGradient>
-
-    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M 48 0 H 0 V 48" fill="none" stroke="${t.inner}" stroke-opacity="0.045" stroke-width="1"/>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 H 0 V 40" fill="none" stroke="${t.grid}" stroke-opacity="${t.gridOp}"/>
     </pattern>
-
     <filter id="grain" x="0" y="0" width="100%" height="100%">
       <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch"/>
       <feColorMatrix type="saturate" values="0"/>
       <feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
     </filter>
-
-    <clipPath id="avatarClip">
-      <circle cx="1070" cy="204" r="78"/>
-    </clipPath>
-
+    <clipPath id="winClip"><rect x="40" y="28" width="1200" height="364" rx="20"/></clipPath>
+    <clipPath id="avatarClip"><rect x="1001" y="116" width="170" height="170" rx="30"/></clipPath>
     <style>
-      .pulse { animation: pulse 3.6s ease-in-out infinite; }
-      .drift { animation: drift 26s ease-in-out infinite alternate; }
-      @keyframes pulse {
-        0%, 100% { opacity: 0.35; }
-        50%      { opacity: 1; }
-      }
-      @keyframes drift {
-        from { transform: translate3d(-16px, 6px, 0); }
-        to   { transform: translate3d(22px, -8px, 0); }
-      }
-      @media (prefers-reduced-motion: reduce) {
-        .pulse, .drift { animation: none; }
-      }
+      .blink { animation: blink 1.1s steps(1) infinite; }
+      @keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+      .pulse { animation: pulse 3.2s ease-in-out infinite; }
+      @keyframes pulse { 0%, 100% { opacity: 0.4; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) { .blink, .pulse { animation: none; } }
     </style>
   </defs>
 
   <rect width="1280" height="420" rx="26" fill="url(#bg)"/>
-  <rect width="1280" height="420" rx="26" fill="url(#grid)" opacity="0.65"/>
-  <ellipse class="drift" cx="980" cy="-40" rx="640" ry="380" fill="url(#aurora)"/>
-  <ellipse cx="90" cy="470" rx="560" ry="340" fill="url(#ember)"/>
+  <rect width="1280" height="420" rx="26" fill="url(#grid)"/>
+  <ellipse cx="1090" cy="40" rx="520" ry="300" fill="url(#glowA)"/>
+  <ellipse cx="120" cy="450" rx="480" ry="260" fill="url(#glowA)" opacity="0.55"/>
 
-  <!-- cover card -->
-  <rect x="40" y="28" width="1200" height="364" rx="28" fill="url(#cardFill)" stroke="${t.border}" stroke-width="1"/>
-  <rect x="40.75" y="28.75" width="1198.5" height="362.5" rx="27.5" fill="none" stroke="${t.inner}" stroke-opacity="${t.innerOpacity}" stroke-width="1"/>
-  <path d="M 68 28 H 330" stroke="url(#rule)" stroke-width="2"/>
+  <!-- terminal window -->
+  <rect x="40" y="28" width="1200" height="364" rx="20" fill="${t.win}" fill-opacity="0.96" stroke="url(#winEdge)" stroke-width="1.2"/>
+  <g clip-path="url(#winClip)">
+    <rect x="40" y="28" width="1200" height="44" fill="${t.winBar}"/>
+    <line x1="40" y1="72" x2="1240" y2="72" stroke="${t.border}"/>
+  </g>
+  <circle cx="68" cy="50" r="6" fill="${t.dotA}"/>
+  <circle cx="90" cy="50" r="6" fill="${t.dotB}"/>
+  <circle cx="112" cy="50" r="6" fill="${t.dotC}"/>
+  <text x="640" y="55" text-anchor="middle" font-family="${MONO}" font-size="12.5" fill="${t.faint}">bilal@morty — ~/profile — zsh</text>
+  <text x="1212" y="55" text-anchor="end" font-family="${MONO}" font-size="12" fill="${t.faint}">github.com/Bilalmesk</text>
 
-  <!-- masthead -->
-  <text x="88" y="80" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="600" letter-spacing="3.2" fill="${t.faint}">PROFILE · ISSUE 2026</text>
-  <text x="1152" y="80" text-anchor="end" font-family="'JetBrains Mono','Cascadia Code',Consolas,monospace" font-size="13.5" fill="${t.faint}">github.com/Bilalmesk</text>
-  <line x1="88" y1="98" x2="1152" y2="98" stroke="${t.border}" stroke-width="1"/>
+  <!-- whoami -->
+  <text x="88" y="112" font-family="${MONO}" font-size="15" fill="${t.faint}"><tspan fill="${t.accent}">❯</tspan> whoami</text>
+  <text x="84" y="196" font-family="${SANS}" font-size="78" font-weight="700" letter-spacing="-2.6" fill="url(#nameFill)">Meskine Morty<tspan class="blink" fill="${t.accent}" font-family="${MONO}" font-weight="400" dx="6">_</tspan></text>
+  <text x="88" y="238" font-family="${SANS}" font-size="21" fill="${t.muted}">Automation, reverse engineering and streaming tooling.</text>
 
-  <!-- name -->
-  <text x="84" y="190" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="82" font-weight="600" letter-spacing="-2.8" fill="${t.text}">Meskine Morty<tspan fill="${t.accent}">.</tspan></text>
-  <text x="88" y="232" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="21" fill="${t.muted}">Automation, reverse engineering and streaming tooling</text>
-
-  <!-- chips -->
+  <!-- tools -->
+  <text x="88" y="280" font-family="${MONO}" font-size="15" fill="${t.faint}"><tspan fill="${t.accent}">❯</tspan> ls ~/tools</text>
   <g>
-    <rect x="88" y="258" width="132" height="34" rx="17" fill="${t.chipFill}" fill-opacity="${t.chipFillOpacity}" stroke="${t.border}" stroke-width="1"/>
-    <g fill="${t.accentSoft}">
-      <rect x="105" y="268" width="5.5" height="5.5" rx="1"/>
-      <rect x="112.5" y="268" width="5.5" height="5.5" rx="1"/>
-      <rect x="105" y="275.5" width="5.5" height="5.5" rx="1"/>
-      <rect x="112.5" y="275.5" width="5.5" height="5.5" rx="1"/>
-    </g>
-    <text x="129" y="280" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="${t.chipText}">Windows</text>
-
-    <rect x="230" y="258" width="128" height="34" rx="17" fill="${t.chipFill}" fill-opacity="${t.chipFillOpacity}" stroke="${t.border}" stroke-width="1"/>
-    <rect x="247" y="267" width="9.5" height="17" rx="2" fill="none" stroke="${t.accentSoft}" stroke-width="1.5"/>
-    <circle cx="251.75" cy="280" r="1" fill="${t.accentSoft}"/>
-    <text x="268" y="280" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="${t.chipText}">Android</text>
-
-    <rect x="368" y="258" width="100" height="34" rx="17" fill="${t.chipFill}" fill-opacity="${t.chipFillOpacity}" stroke="${t.border}" stroke-width="1"/>
-    <text x="385" y="280" font-family="'JetBrains Mono','Cascadia Code',Consolas,monospace" font-size="13.5" fill="${t.accentSoft}">&gt;_</text>
-    <text x="406" y="280" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="${t.chipText}">CLI</text>
+${chips}
   </g>
 
   <!-- status -->
-  <circle class="pulse" cx="94" cy="338" r="4.5" fill="${t.accent}"/>
-  <text x="112" y="343" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="15" fill="${t.faint}">Building <tspan fill="${t.text}">opencode-usage-tracker</tspan> — local-first, read-only</text>
+  <text x="88" y="366" font-family="${MONO}" font-size="14" fill="${t.faint}"><tspan fill="${t.accent}">❯</tspan> status <tspan class="pulse" fill="${t.accent}">●</tspan> <tspan fill="${t.muted}">building local-first, read-only analytics</tspan></text>
+
+  <!-- divider -->
+  <line x1="950" y1="104" x2="950" y2="372" stroke="${t.border}"/>
 
   <!-- portrait -->
-  <ellipse cx="1070" cy="204" rx="118" ry="118" fill="url(#faceGlow)" opacity="0.55"/>
-  <image href="data:${avatarType};base64,${avatarB64}" x="992" y="126" width="156" height="156" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)"/>
-  <circle cx="1070" cy="204" r="78" fill="none" stroke="url(#ring)" stroke-width="2"/>
-  <circle cx="1070" cy="204" r="86" fill="none" stroke="${t.accent}" stroke-opacity="0.12" stroke-width="5"/>
+  <ellipse cx="1086" cy="201" rx="130" ry="130" fill="url(#glowA)" opacity="0.7"/>
+  <image href="data:${avatarType};base64,${avatarB64}" x="1001" y="116" width="170" height="170" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)"/>
+  <rect x="1001" y="116" width="170" height="170" rx="30" fill="none" stroke="${t.accent}" stroke-opacity="0.55" stroke-width="1.5"/>
+  <g fill="none" stroke="${t.accent}" stroke-width="2.5" stroke-linecap="round">
+    <path d="M 987 140 V 110 a 14 14 0 0 1 14 -14 H 1031"/>
+    <path d="M 1141 96 H 1171 a 14 14 0 0 1 14 14 V 140"/>
+    <path d="M 987 262 V 292 a 14 14 0 0 0 14 14 H 1031"/>
+    <path d="M 1141 306 H 1171 a 14 14 0 0 0 14 -14 V 262"/>
+  </g>
 
   <!-- headline stat -->
-  <text x="1070" y="348" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="54" font-weight="600" letter-spacing="-1.2" fill="${t.text}">${contributions}</text>
-  <text x="1070" y="374" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" letter-spacing="2.4" fill="${t.faint}">CONTRIBUTIONS · 12 MO</text>
+  <text x="1086" y="352" text-anchor="middle" font-family="${SANS}" font-size="42" font-weight="700" letter-spacing="-1" fill="${t.text}">${contributions}</text>
+  <text x="1086" y="374" text-anchor="middle" font-family="${SANS}" font-size="11" font-weight="600" letter-spacing="2.4" fill="${t.faint}">CONTRIBUTIONS · 12 MO</text>
 
   <rect width="1280" height="420" rx="26" filter="url(#grain)" opacity="${t.grain}" style="mix-blend-mode:overlay"/>
 </svg>

@@ -7,6 +7,7 @@
 
 <div align="center">
 
+<img alt="Profile views" src="https://komarev.com/ghpvc/?username=Bilalmesk&amp;label=PROFILE+VIEWS&amp;color=ff2d2d&amp;labelColor=0a0a0a&amp;style=for-the-badge" />
 <img alt="Followers" src="https://img.shields.io/github/followers/Bilalmesk?style=for-the-badge&amp;color=ff2d2d&amp;labelColor=0a0a0a&amp;logo=github&amp;logoColor=ffffff" />
 <img alt="Total stars" src="https://img.shields.io/github/stars/Bilalmesk?style=for-the-badge&amp;color=e11d48&amp;labelColor=0a0a0a&amp;logo=github&amp;logoColor=ffffff" />
 <img alt="Last profile update" src="https://img.shields.io/github/last-commit/Bilalmesk/Bilalmesk?style=for-the-badge&amp;color=b91c1c&amp;labelColor=0a0a0a&amp;label=UPDATED" />
@@ -84,8 +85,8 @@ Also on GitHub: **[winget-pkgs](https://github.com/Bilalmesk/winget-pkgs)** — 
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=powershell,js,html,kotlin,windows,git,github&amp;theme=dark" />
-    <img alt="PowerShell, JavaScript, HTML, Kotlin, Windows, Git and GitHub" src="https://skillicons.dev/icons?i=powershell,js,html,kotlin,windows,git,github&amp;theme=light" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/toolbox-dark.svg" />
+    <img alt="PowerShell, JavaScript, HTML, Kotlin, Windows, Git and GitHub" src="./assets/toolbox-light.svg" />
   </picture>
 </div>
 
