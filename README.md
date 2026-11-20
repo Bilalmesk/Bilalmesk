@@ -23,11 +23,11 @@ problem I actually ran into.
 
 <div align="center">
 
-<img height="165" alt="GitHub stats: commits, pull requests, stars and repositories" src="https://github-readme-stats.vercel.app/api?username=Bilalmesk&amp;show_icons=true&amp;include_all_commits=true&amp;count_private=true&amp;hide=issues&amp;rank_icon=github&amp;bg_color=0D1117&amp;title_color=22D3EE&amp;icon_color=A78BFA&amp;text_color=C9D1D9&amp;border_color=30363D&amp;border_radius=12" />
-<img height="165" alt="Current and longest contribution streak" src="https://streak-stats.demolab.com?user=Bilalmesk&amp;background=0D1117&amp;border=30363D&amp;stroke=30363D&amp;ring=A78BFA&amp;fire=F59E0B&amp;currStreakNum=E6EDF3&amp;sideNums=E6EDF3&amp;currStreakLabel=22D3EE&amp;sideLabels=9CA3AF&amp;dates=6B7280&amp;border_radius=12" />
+<img width="48%" alt="GitHub stats: commits, pull requests, stars and repositories" src="https://github-readme-stats.vercel.app/api?username=Bilalmesk&amp;show_icons=true&amp;include_all_commits=true&amp;count_private=true&amp;hide=issues&amp;rank_icon=github&amp;bg_color=0D1117&amp;title_color=22D3EE&amp;icon_color=A78BFA&amp;text_color=C9D1D9&amp;border_color=30363D&amp;border_radius=12" />
+<img width="48%" alt="Current and longest contribution streak" src="https://streak-stats.demolab.com?user=Bilalmesk&amp;background=0D1117&amp;border=30363D&amp;stroke=30363D&amp;ring=A78BFA&amp;fire=F59E0B&amp;currStreakNum=E6EDF3&amp;sideNums=E6EDF3&amp;currStreakLabel=22D3EE&amp;sideLabels=9CA3AF&amp;dates=6B7280&amp;border_radius=12" />
 
-<img height="165" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bilalmesk&amp;layout=compact&amp;langs_count=8&amp;hide=html,css&amp;bg_color=0D1117&amp;title_color=22D3EE&amp;text_color=C9D1D9&amp;border_color=30363D&amp;border_radius=12" />
-<img height="165" alt="Achievement trophies" src="https://github-profile-trophy.vercel.app/?username=Bilalmesk&amp;theme=algolia&amp;no-frame=true&amp;no-bg=true&amp;column=4&amp;margin-w=8&amp;margin-h=8" />
+<img width="48%" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bilalmesk&amp;layout=compact&amp;langs_count=8&amp;hide=html,css&amp;bg_color=0D1117&amp;title_color=22D3EE&amp;text_color=C9D1D9&amp;border_color=30363D&amp;border_radius=12" />
+<img width="48%" alt="Most productive hours of the day" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Bilalmesk&amp;theme=github_dark&amp;utcOffset=1" />
 
 </div>
 
