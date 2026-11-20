@@ -53,7 +53,6 @@ problem I actually ran into.
 | **[opencode-usage-tracker](https://github.com/Bilalmesk/opencode-usage-tracker)** | Local, read-only OpenCode usage dashboard for free, Go, Zen and external providers. | `HTML` `JavaScript` |
 | **[mihon-extensions](https://github.com/Bilalmesk/mihon-extensions)** | Mihon / Tachiyomi extensions for Arabic manga sources. | `Kotlin` |
 | **[netflix-speed-keys](https://github.com/Bilalmesk/netflix-speed-keys)** | Keyboard shortcuts for Netflix playback speed, with synchronized subtitles. | `JavaScript` |
-| **[logs2cookies-bening](https://github.com/Bilalmesk/logs2cookies-bening)** | Defensive security research around browser logs and cookie handling. | `Go` |
 | 🔒 **shortora** *(private)* | Drama streaming: Android app plus a native iOS port with automated IPA builds. | `Java` `Swift` |
 
 ---
