@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" width="1280" height="420" role="img" aria-labelledby="heroTitle heroDesc">
   <title id="heroTitle">Meskine Morty — Bilalmesk</title>
-  <desc id="heroDesc">Profile cover: Meskine Morty, automation, reverse engineering and streaming tooling, 154 contributions in the last twelve months.</desc>
+  <desc id="heroDesc">Profile cover: Meskine Morty, automation, reverse engineering and streaming tooling, 159 contributions in the last twelve months.</desc>
 
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -125,7 +125,7 @@
   <circle cx="1070" cy="162" r="86" fill="none" stroke="#cf222e" stroke-opacity="0.12" stroke-width="5"/>
 
   <!-- headline stat -->
-  <text x="1070" y="308" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="54" font-weight="600" letter-spacing="-1.2" fill="#111114">154</text>
+  <text x="1070" y="308" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="54" font-weight="600" letter-spacing="-1.2" fill="#111114">159</text>
   <text x="1070" y="334" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" font-weight="600" letter-spacing="2.4" fill="#6e6e78">CONTRIBUTIONS · 12 MO</text>
 
   <rect width="1280" height="420" rx="26" filter="url(#grain)" opacity="0.22" style="mix-blend-mode:overlay"/>

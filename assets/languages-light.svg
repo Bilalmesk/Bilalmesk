@@ -22,7 +22,7 @@
   <line x1="28" y1="56" x2="467" y2="56" stroke="#efe8e9" stroke-width="1"/>
   <circle cx="34" cy="80" r="3.5" fill="#cf222e"/>
   <text x="46" y="84" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#111114">PowerShell</text>
-  <text x="467" y="84" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#5b5b66">79.02%</text>
+  <text x="467" y="84" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#5b5b66">78.92%</text>
   <rect x="46" y="87" width="421" height="4" rx="2" fill="#f2edee"/>
   <rect x="46" y="87" width="328" height="4" rx="2" fill="#e5484d" opacity="1"/>
   <circle cx="34" cy="102" r="3.5" fill="#cf222e"/>
@@ -32,7 +32,7 @@
   <rect x="46" y="109" width="37" height="4" rx="2" fill="#e5484d" opacity="0.86"/>
   <circle cx="34" cy="124" r="3.5" fill="#cf222e"/>
   <text x="46" y="128" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#111114">JavaScript</text>
-  <text x="467" y="128" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#5b5b66">7.94%</text>
+  <text x="467" y="128" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#5b5b66">8.05%</text>
   <rect x="46" y="131" width="421" height="4" rx="2" fill="#f2edee"/>
   <rect x="46" y="131" width="33" height="4" rx="2" fill="#e5484d" opacity="0.72"/>
   <circle cx="34" cy="146" r="3.5" fill="#cf222e"/>
