@@ -22,22 +22,22 @@
   <line x1="28" y1="56" x2="467" y2="56" stroke="#efe8e9" stroke-width="1"/>
   <circle cx="34" cy="80" r="3.5" fill="#cf222e"/>
   <text x="46" y="84" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#111114">PowerShell</text>
-  <text x="467" y="84" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#5b5b66">66.17%</text>
+  <text x="467" y="84" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#5b5b66">66.00%</text>
   <rect x="46" y="87" width="421" height="4" rx="2" fill="#f2edee"/>
-  <rect x="46" y="87" width="275" height="4" rx="2" fill="#e5484d" opacity="1"/>
+  <rect x="46" y="87" width="274" height="4" rx="2" fill="#e5484d" opacity="1"/>
   <circle cx="34" cy="102" r="3.5" fill="#cf222e"/>
   <text x="46" y="106" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#111114">JavaScript</text>
-  <text x="467" y="106" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#5b5b66">10.47%</text>
+  <text x="467" y="106" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#5b5b66">10.44%</text>
   <rect x="46" y="109" width="421" height="4" rx="2" fill="#f2edee"/>
   <rect x="46" y="109" width="43" height="4" rx="2" fill="#e5484d" opacity="0.86"/>
   <circle cx="34" cy="124" r="3.5" fill="#cf222e"/>
   <text x="46" y="128" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#111114">Go</text>
-  <text x="467" y="128" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#5b5b66">8.84%</text>
+  <text x="467" y="128" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#5b5b66">8.82%</text>
   <rect x="46" y="131" width="421" height="4" rx="2" fill="#f2edee"/>
   <rect x="46" y="131" width="37" height="4" rx="2" fill="#e5484d" opacity="0.72"/>
   <circle cx="34" cy="146" r="3.5" fill="#cf222e"/>
   <text x="46" y="150" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#111114">HTML</text>
-  <text x="467" y="150" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#5b5b66">8.74%</text>
+  <text x="467" y="150" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#5b5b66">8.72%</text>
   <rect x="46" y="153" width="421" height="4" rx="2" fill="#f2edee"/>
   <rect x="46" y="153" width="36" height="4" rx="2" fill="#e5484d" opacity="0.58"/>
   <circle cx="34" cy="168" r="3.5" fill="#cf222e"/>
