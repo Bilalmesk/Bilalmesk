@@ -22,27 +22,27 @@
   <line x1="28" y1="56" x2="467" y2="56" stroke="#241318" stroke-width="1"/>
   <circle cx="34" cy="80" r="3.5" fill="#e11d48"/>
   <text x="46" y="84" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#ededf2">PowerShell</text>
-  <text x="467" y="84" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#8b8b95">65.62%</text>
+  <text x="467" y="84" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#8b8b95">63.57%</text>
   <rect x="46" y="87" width="421" height="4" rx="2" fill="#1c1c22"/>
-  <rect x="46" y="87" width="272" height="4" rx="2" fill="#ff3b5c" opacity="1"/>
+  <rect x="46" y="87" width="264" height="4" rx="2" fill="#ff3b5c" opacity="1"/>
   <circle cx="34" cy="102" r="3.5" fill="#e11d48"/>
   <text x="46" y="106" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#ededf2">JavaScript</text>
-  <text x="467" y="106" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#8b8b95">10.39%</text>
+  <text x="467" y="106" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#8b8b95">10.52%</text>
   <rect x="46" y="109" width="421" height="4" rx="2" fill="#1c1c22"/>
-  <rect x="46" y="109" width="43" height="4" rx="2" fill="#ff3b5c" opacity="0.86"/>
+  <rect x="46" y="109" width="44" height="4" rx="2" fill="#ff3b5c" opacity="0.86"/>
   <circle cx="34" cy="124" r="3.5" fill="#e11d48"/>
   <text x="46" y="128" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#ededf2">Go</text>
-  <text x="467" y="128" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#8b8b95">8.77%</text>
+  <text x="467" y="128" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#8b8b95">10.32%</text>
   <rect x="46" y="131" width="421" height="4" rx="2" fill="#1c1c22"/>
-  <rect x="46" y="131" width="36" height="4" rx="2" fill="#ff3b5c" opacity="0.72"/>
+  <rect x="46" y="131" width="43" height="4" rx="2" fill="#ff3b5c" opacity="0.72"/>
   <circle cx="34" cy="146" r="3.5" fill="#e11d48"/>
   <text x="46" y="150" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#ededf2">HTML</text>
-  <text x="467" y="150" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#8b8b95">8.67%</text>
+  <text x="467" y="150" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#8b8b95">9.23%</text>
   <rect x="46" y="153" width="421" height="4" rx="2" fill="#1c1c22"/>
-  <rect x="46" y="153" width="36" height="4" rx="2" fill="#ff3b5c" opacity="0.58"/>
+  <rect x="46" y="153" width="38" height="4" rx="2" fill="#ff3b5c" opacity="0.58"/>
   <circle cx="34" cy="168" r="3.5" fill="#e11d48"/>
   <text x="46" y="172" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#ededf2">C#</text>
-  <text x="467" y="172" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#8b8b95">2.22%</text>
+  <text x="467" y="172" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#8b8b95">2.15%</text>
   <rect x="46" y="175" width="421" height="4" rx="2" fill="#1c1c22"/>
   <rect x="46" y="175" width="9" height="4" rx="2" fill="#ff3b5c" opacity="0.43999999999999995"/>
   <rect x="0.5" y="0.5" width="494" height="194" rx="16" filter="url(#grain)" opacity="0.5"/>
