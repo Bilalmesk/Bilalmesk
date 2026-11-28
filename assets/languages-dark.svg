@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495" height="195" role="img" aria-label="Most used languages: PowerShell, Go, HTML, JavaScript, Python">
-  <title>Most used languages: PowerShell, Go, HTML, JavaScript, Python</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495" height="195" role="img" aria-label="Most used languages: PowerShell, HTML, Go, JavaScript, Python">
+  <title>Most used languages: PowerShell, HTML, Go, JavaScript, Python</title>
   <defs>
     <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#e11d48" stop-opacity="0.9"/>
@@ -22,28 +22,28 @@
   <line x1="28" y1="56" x2="467" y2="56" stroke="#241318" stroke-width="1"/>
   <circle cx="34" cy="80" r="3.5" fill="#e11d48"/>
   <text x="46" y="84" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#ededf2">PowerShell</text>
-  <text x="467" y="84" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#8b8b95">51.01%</text>
+  <text x="467" y="84" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#8b8b95">48.02%</text>
   <rect x="46" y="87" width="421" height="4" rx="2" fill="#1c1c22"/>
-  <rect x="46" y="87" width="212" height="4" rx="2" fill="#ff3b5c" opacity="1"/>
+  <rect x="46" y="87" width="199" height="4" rx="2" fill="#ff3b5c" opacity="1"/>
   <circle cx="34" cy="102" r="3.5" fill="#e11d48"/>
-  <text x="46" y="106" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#ededf2">Go</text>
-  <text x="467" y="106" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#8b8b95">12.61%</text>
+  <text x="46" y="106" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#ededf2">HTML</text>
+  <text x="467" y="106" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#8b8b95">12.23%</text>
   <rect x="46" y="109" width="421" height="4" rx="2" fill="#1c1c22"/>
-  <rect x="46" y="109" width="52" height="4" rx="2" fill="#ff3b5c" opacity="0.86"/>
+  <rect x="46" y="109" width="51" height="4" rx="2" fill="#ff3b5c" opacity="0.86"/>
   <circle cx="34" cy="124" r="3.5" fill="#e11d48"/>
-  <text x="46" y="128" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#ededf2">HTML</text>
-  <text x="467" y="128" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#8b8b95">11.66%</text>
+  <text x="46" y="128" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#ededf2">Go</text>
+  <text x="467" y="128" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#8b8b95">11.87%</text>
   <rect x="46" y="131" width="421" height="4" rx="2" fill="#1c1c22"/>
-  <rect x="46" y="131" width="48" height="4" rx="2" fill="#ff3b5c" opacity="0.72"/>
+  <rect x="46" y="131" width="49" height="4" rx="2" fill="#ff3b5c" opacity="0.72"/>
   <circle cx="34" cy="146" r="3.5" fill="#e11d48"/>
   <text x="46" y="150" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#ededf2">JavaScript</text>
-  <text x="467" y="150" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#8b8b95">9.44%</text>
+  <text x="467" y="150" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#8b8b95">11.10%</text>
   <rect x="46" y="153" width="421" height="4" rx="2" fill="#1c1c22"/>
-  <rect x="46" y="153" width="39" height="4" rx="2" fill="#ff3b5c" opacity="0.58"/>
+  <rect x="46" y="153" width="46" height="4" rx="2" fill="#ff3b5c" opacity="0.58"/>
   <circle cx="34" cy="168" r="3.5" fill="#e11d48"/>
   <text x="46" y="172" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#ededf2">Python</text>
-  <text x="467" y="172" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#8b8b95">7.88%</text>
+  <text x="467" y="172" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10.5" fill="#8b8b95">9.80%</text>
   <rect x="46" y="175" width="421" height="4" rx="2" fill="#1c1c22"/>
-  <rect x="46" y="175" width="33" height="4" rx="2" fill="#ff3b5c" opacity="0.43999999999999995"/>
+  <rect x="46" y="175" width="41" height="4" rx="2" fill="#ff3b5c" opacity="0.43999999999999995"/>
   <rect x="0.5" y="0.5" width="494" height="194" rx="16" filter="url(#grain)" opacity="0.5"/>
 </svg>
